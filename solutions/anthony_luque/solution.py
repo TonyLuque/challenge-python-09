@@ -1,11 +1,10 @@
-"""Script que duplica los 0 encontrados en una lista"""
+"""Script que duplica los 0 encontrados en una lista."""
 from typing import List
 
-"""Clase en la que se implementa la función"""
 class Solution:
-    """Duplica los 0 que encuentre en el arreglo"""
+    """Clase en la que se implementa la función."""
     def duplicate_zeros(self, l: List[int]):
-
+        """Duplica los 0 que encuentre en el arreglo."""
         i = 0
         while i < len(l):
             if l[i] == 0:
